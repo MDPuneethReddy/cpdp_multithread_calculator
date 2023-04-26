@@ -27,7 +27,7 @@ export const ComplexCalculator=()=>{
         setInput(e.target.value)
     }}/>
     </div>
-    <Button type="primary" onClick={calculateFib}>
+    <Button className="btn" type="primary" onClick={calculateFib}>
     fib
   </Button>
   <Space direction="vertical" size="middle" style={{ display: 'flex' }}>
